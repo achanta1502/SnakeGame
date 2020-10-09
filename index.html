@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>
+            Snake Game
+        </title>
+        <script src="script.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div>
+            <select id="snake">
+                <option value="Red" selected>Red</option>
+                <option value="Yellow">Yellow</option>
+                <option value="Brown">Brown</option>
+            </select>
+            <select id="dot">
+                <option value="Green">Green</option>
+                <option value="Pink" selected>Pink</option>
+                <option value="White">White</option>
+            </select>
+            <select id="speed">
+                <option value="0.5">0.5x</option>
+                <option value="1" selected>1x</option>
+                <option value="1.5">1.5x</option>
+            </select>
+            <button id="start">Start Game</button>
+        </div>
+        <div>
+            <canvas id="game" width="400" height="400"></canvas>
+        </div>
+    </body>
+</html>
