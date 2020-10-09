@@ -3,10 +3,14 @@
         <title>
             Snake Game
         </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <script src="script.js" type="text/javascript">
         </script>
     </head>
     <body>
+        <div class="alert alert-danger" role="alert">
+            A simple danger alert—check it out!
+        </div>
         <div>
             <select id="snake">
                 <option value="Red" selected>Red</option>
@@ -23,7 +27,7 @@
                 <option value="1" selected>1x</option>
                 <option value="1.5">1.5x</option>
             </select>
-            <button id="start">Start Game</button>
+            <button type="button" class="btn btn-success" id="start">Start Game</button>
         </div>
         <div>
             <canvas id="game" width="400" height="400"></canvas>
